@@ -64,10 +64,15 @@
 
       <div class="left-nav-user">
         <div class="left-nav-user left-nav-user-icon"></div>
-        <div class="left-nav-user left-nav-login-user">
+        <div class="left-nav-user left-nav-login-user">         
           <div class="left-nav-user left-nav-user-title">username</div>
-          <div class="left-nav-user left-nav-user-nickname"></div>
+          <div class="left-nav-user left-nav-user-nickname"></div>          
         </div>
+       
+         <input type="file" id="profile_file_input" /><br />
+         <input type="button" value="Save as File" id="btnSaveProfileImageAsFile" />
+          <input type="button" value="Save as Blob" id="btnSaveProfileImageAsBlob" />
+         <br /><br />
       </div>
 
     </div> <!-- // end left nav -->
@@ -248,9 +253,10 @@
       </div>
     </div>
   </div>
-  <script src="static/lib/SendBird.min.js"></script>
+  <script src="static/lib/SendBird3055.min.js"></script>
   <script src="static/js/util.js"></script>
   <script src="static/js/chat.js"></script>
+  <script src="static/js/saveProfileImageTest.js"></script>
 
 </body>
 </html>
